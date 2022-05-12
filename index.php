@@ -32,9 +32,12 @@
       </div>
     </div>
   </div>
-  <div class="join-us">
-  </div>
 </div>
+  <div class="join-us">
+    <h1>إنضـم إلينـا ألان للاستفـادة مـن كافـة مزايـا الموقـع</h1>
+    <button class="">تسجيـل الدخــول</button>
+  </div>
+
 <?php
   include $temp . "footer.php";
 ?>
