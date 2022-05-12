@@ -135,3 +135,32 @@
 * body .slider h5 span {
   color: #F66B0E;
 }
+* .container .latest-works {
+  -webkit-box-shadow: 0 0 3px #122b3c;
+          box-shadow: 0 0 3px #122b3c;
+  position: relative;
+  padding: 20px;
+  margin-top: 50px;
+}
+* .container .latest-works h2 {
+  position: absolute;
+  height: 60px;
+  top: -30px;
+  line-height: 30px;
+  color: white;
+  padding: 20px;
+  border-radius: 5rem;
+  background: #122b3c;
+  right: 45%;
+}
+* .container .latest-works .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 50px;
+}
