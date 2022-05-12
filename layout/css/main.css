@@ -203,3 +203,95 @@
 * .join-us button:hover {
   background-color: #112B3C;
 }
+* .infoOn-theSite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+* .infoOn-theSite .shareUr-work,
+* .infoOn-theSite .our-team,
+* .infoOn-theSite .reach-you,
+* .infoOn-theSite .easy-use {
+  border-left: 2px solid #205375;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  min-height: 200px;
+}
+* .infoOn-theSite .shareUr-work img,
+* .infoOn-theSite .our-team img,
+* .infoOn-theSite .reach-you img,
+* .infoOn-theSite .easy-use img {
+  width: 100px;
+  height: 100px;
+}
+* .infoOn-theSite .shareUr-work h3,
+* .infoOn-theSite .our-team h3,
+* .infoOn-theSite .reach-you h3,
+* .infoOn-theSite .easy-use h3 {
+  margin-top: 20px;
+}
+* .infoOn-theSite .shareUr-work h3 span,
+* .infoOn-theSite .our-team h3 span,
+* .infoOn-theSite .reach-you h3 span,
+* .infoOn-theSite .easy-use h3 span {
+  color: #205375;
+}
+* .infoOn-theSite .shareUr-work p,
+* .infoOn-theSite .our-team p,
+* .infoOn-theSite .reach-you p,
+* .infoOn-theSite .easy-use p {
+  line-height: 2;
+  color: #666666;
+  font-style: italic;
+  width: 80%;
+}
+* .infoOn-theSite .shareUr-work,
+* .infoOn-theSite .our-team {
+  border-left: 2px solid #205375;
+}
+* .infoOn-theSite .shareUr-work img {
+  width: 100px;
+  height: 100px;
+}
+* .infoOn-theSite .shareUr-work p {
+  line-height: 2;
+  color: #666666;
+  font-style: italic;
+}
+* .infoOn-theSite .our-team img {
+  width: 100px;
+  height: 100px;
+}
+* .infoOn-theSite .our-team p {
+  line-height: 2;
+  color: #666666;
+  font-style: italic;
+}
+* .infoOn-theSite .reach-you img {
+  width: 100px;
+  height: 100px;
+}
+* .infoOn-theSite .reach-you p {
+  line-height: 2;
+  color: #666666;
+  font-style: italic;
+}
+* .users-opinions {
+  height: 50px;
+}

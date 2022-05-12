@@ -37,7 +37,31 @@
     <h1>إنضـم إلينـا ألان للاستفـادة مـن كافـة مزايـا الموقـع</h1>
     <button class="">تسجيـل الدخــول</button>
   </div>
+  <div class="infoOn-theSite">
+    <div class="shareUr-work">
+      <img src="https://freesvg.org/img/1529923151.png" alt="">
+      <h3>شـارك <span>أعمالك</span></h3>
+      <p class="text">شارك أفكارك و أعمالك مع الاخرين نقدم لك معرض متكامل لابداعاتك مجانا لا تحتاج الى دفع مال او الاشتراك مقابل هده الميزة</p>
+    </div>
+    <div class="our-team">
+      <img src="https://freesvg.org/img/users.png" alt="">
+      <h3>فريقنـا <span>فـي خدمتـك</span></h3>
+      <p class="text">تواصل معنا نحن رهن إشارتك سرعة جيدة في الرد و الاستجابة كل المستخدمين لهم نفس الاولوية بالنسبة لنا</p>
+    </div>
+    <div class="reach-you">
+      <img src="https://freesvg.org/img/students_group_work.png" alt="">
+      <h3>سهولـة <span>الوصـول لك</span></h3>
+      <p class="text">نتيح لك ميزة وضع جميع وسائل تواصلك في ملفك الضخصي لتجعل من يريدك يعلم كيف يجدك بكل سهولة</p>
+    </div>
+    <div class="easy-use">
+      <img src="https://freesvg.org/img/1538295861.png" alt="">
+      <h3>سهولـة <span>الاستخـدام</span></h3>
+      <p class="text">نحاول جاهدين الى جعل الموقع اسرع استجابة و أكثر سهولة في الاستخدام سوف يتم تحديث الموقع باستمرار  للحصول على افضل تجربة لمستخدمينا</p>
+    </div>
+  </div>
+  <div class="users-opinions">
 
+  </div>
 <?php
   include $temp . "footer.php";
 ?>
