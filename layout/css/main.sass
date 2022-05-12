@@ -76,3 +76,24 @@ $color-back: #f4f4f4
             font-size: 20px
             margin: 0 15px
             cursor: pointer
+    .slider
+      background-color: $color-main
+      width: 100%
+      height: calc(100vh - 67px)
+      color: $color-light
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-flow: column
+      clip-path: polygon(50% 0%, 100% 0, 100% 71%, 0 100%, 0 100%, 0% 60%, 0 0)
+      h1
+        font-size: 50px
+        svg
+          margin-right: 10px
+          color: $color-light
+      h5
+        background: $color-global
+        padding: 10px 20px
+        margin-top: 30px
+        span
+          color: $color-text

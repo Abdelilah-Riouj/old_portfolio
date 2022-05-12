@@ -11,4 +11,7 @@
     
 </head>
 <body>
-    <?php include $temp . 'navbar.php'; ?>
+    <?php 
+        include $temp . 'navbar.php'; 
+        include $temp . 'slider.php'; 
+    ?>
