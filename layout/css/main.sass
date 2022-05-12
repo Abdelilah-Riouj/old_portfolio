@@ -168,36 +168,6 @@ $color-back: #f4f4f4
         color: #666666
         font-style: italic
         width: 80%
-    .shareUr-work,
-    .our-team
-      border-left: 2px solid #205375
-    .shareUr-work
-      img
-        width: 100px
-        height: 100px
-      h3
-      p
-        line-height: 2
-        color: #666666
-        font-style: italic
-    .our-team
-      img
-        width: 100px
-        height: 100px
-      h3
-      p
-        line-height: 2
-        color: #666666
-        font-style: italic
-    .reach-you
-      img
-        width: 100px
-        height: 100px
-      h3
-      p
-        line-height: 2
-        color: #666666
-        font-style: italic
   .users-opinions
     margin-top: 50px
     background: linear-gradient(to left, #122b3c 50%, #205375 50%)
@@ -233,7 +203,8 @@ $color-back: #f4f4f4
     margin-top: 50px
     width: 70%
     margin-right: 15%
-    .login
+    .sign-in
+      display: none
       h2
         span
           color: $color-text
@@ -276,5 +247,49 @@ $color-back: #f4f4f4
             left: -16px
             top: 25%
             svg
+        label
+          margin-right: 40px
+    .sign-up
+      width: 70%
+      margin: 0 auto
+      h2
+        span
+          color: $color-text
+      .row
+        .col
+          label
+            text-align: start
+            display: block
+            margin-top: 20px
+            font-size: 16px
+            letter-spacing: 1px
+          input
+            margin-top: 15px
+            border: 1px solid $color-main
+      button
+        position: relative
+        background: $color-text
+        color: $color-light
+        span
+          position: absolute
+          right: -1px
+          top: -1px
+          width: 40px
+          height: 103%
+          background: $color-global
+          color: $color-light
+          display: flex
+          justify-content: center
+          align-items: center
+          &::after
+            position: absolute
+            content: ""
+            border-style: solid
+            border-width: 8px
+            border-color: transparent #122b3c transparent transparent
+            left: -16px
+            top: 25%
+          svg
+            color: $color-text
         label
           margin-right: 40px

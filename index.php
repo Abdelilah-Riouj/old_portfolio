@@ -140,7 +140,7 @@
         </ul>
       </div>
       <div class="card-body">
-        <div class="login">
+        <div class="sign-in">
           <h2>تسجيـل <span>الدخــول</span> </h2>
           <div class="input-group mt-3">
             <label for="" class="input-group-text"><i class="fa fa-envelope"></i></label>
@@ -157,6 +157,37 @@
             </label>
           </div>
           <button type="submit" class="btn btn-primary mt-2"><span><i class="fa fa-arrow-right-to-bracket"></i></span><label>تسجيـل الدخــول</label></button>
+        </div>
+        <div class="sign-up">
+          <h2>إنشـاء <span>حسـاب جديـد</span></h2>
+          <div class="row">
+            <div class="col">
+              <label for="">إسـم المستخـدم</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col">
+              <label for="">إلاسـم الشخصـي</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="">البريـد الالكترونـي</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="col">
+              <label for="">كلمـة المـرور</label>
+              <input type="password" class="form-control">
+            </div>
+          </div>
+          <button type="submit" class="btn mt-3">
+            <span>
+              <i class="fa fa-user-plus"></i>
+            </span>
+            <label for="">
+إنشـاء الحسـاب              
+            </label>
+          </button>
         </div>
       </div>
     </div>

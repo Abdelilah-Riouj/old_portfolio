@@ -261,37 +261,6 @@
   font-style: italic;
   width: 80%;
 }
-* .infoOn-theSite .shareUr-work,
-* .infoOn-theSite .our-team {
-  border-left: 2px solid #205375;
-}
-* .infoOn-theSite .shareUr-work img {
-  width: 100px;
-  height: 100px;
-}
-* .infoOn-theSite .shareUr-work p {
-  line-height: 2;
-  color: #666666;
-  font-style: italic;
-}
-* .infoOn-theSite .our-team img {
-  width: 100px;
-  height: 100px;
-}
-* .infoOn-theSite .our-team p {
-  line-height: 2;
-  color: #666666;
-  font-style: italic;
-}
-* .infoOn-theSite .reach-you img {
-  width: 100px;
-  height: 100px;
-}
-* .infoOn-theSite .reach-you p {
-  line-height: 2;
-  color: #666666;
-  font-style: italic;
-}
 * .users-opinions {
   margin-top: 50px;
   background: -webkit-gradient(linear, right top, left top, color-stop(50%, #122b3c), color-stop(50%, #205375));
@@ -341,23 +310,26 @@
   width: 70%;
   margin-right: 15%;
 }
-* .join .login h2 span {
+* .join .sign-in {
+  display: none;
+}
+* .join .sign-in h2 span {
   color: #F66B0E;
 }
-* .join .login .input-group {
+* .join .sign-in .input-group {
   width: 50%;
   margin: 0 auto;
 }
-* .join .login .input-group label {
+* .join .sign-in .input-group label {
   border-radius: 0 3px 3px 0;
 }
-* .join .login .input-group label svg {
+* .join .sign-in .input-group label svg {
   color: #205375;
 }
-* .join .login .input-group input {
+* .join .sign-in .input-group input {
   border-radius: 3px 0 0 3px;
 }
-* .join .login .form-check {
+* .join .sign-in .form-check {
   width: 50%;
   margin: 10px auto;
   display: -webkit-box;
@@ -367,14 +339,14 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-* .join .login .form-check .form-check-label {
+* .join .sign-in .form-check .form-check-label {
   margin-right: 30px;
 }
-* .join .login button {
+* .join .sign-in button {
   position: relative;
   background: #205375;
 }
-* .join .login button span {
+* .join .sign-in button span {
   position: absolute;
   right: -1px;
   top: -1px;
@@ -392,7 +364,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-* .join .login button span::after {
+* .join .sign-in button span::after {
   position: absolute;
   content: "";
   border-style: solid;
@@ -401,6 +373,62 @@
   left: -16px;
   top: 25%;
 }
-* .join .login button label {
+* .join .sign-in button label {
+  margin-right: 40px;
+}
+* .join .sign-up {
+  width: 70%;
+  margin: 0 auto;
+}
+* .join .sign-up h2 span {
+  color: #F66B0E;
+}
+* .join .sign-up .row .col label {
+  text-align: start;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+* .join .sign-up .row .col input {
+  margin-top: 15px;
+  border: 1px solid #205375;
+}
+* .join .sign-up button {
+  position: relative;
+  background: #F66B0E;
+  color: snow;
+}
+* .join .sign-up button span {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 40px;
+  height: 103%;
+  background: #112B3C;
+  color: snow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+* .join .sign-up button span::after {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 8px;
+  border-color: transparent #122b3c transparent transparent;
+  left: -16px;
+  top: 25%;
+}
+* .join .sign-up button span svg {
+  color: #F66B0E;
+}
+* .join .sign-up button label {
   margin-right: 40px;
 }
