@@ -310,26 +310,41 @@
   width: 70%;
   margin-right: 15%;
 }
-* .join .sign-in {
-  display: none;
+* .join li {
+  cursor: pointer;
 }
-* .join .sign-in h2 span {
+* .join .card-body {
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+* .join .card-body .sign-in {
+  width: 100%;
+}
+* .join .card-body .sign-in h2 span {
   color: #F66B0E;
 }
-* .join .sign-in .input-group {
+* .join .card-body .sign-in .input-group {
   width: 50%;
   margin: 0 auto;
 }
-* .join .sign-in .input-group label {
+* .join .card-body .sign-in .input-group label {
   border-radius: 0 3px 3px 0;
 }
-* .join .sign-in .input-group label svg {
+* .join .card-body .sign-in .input-group label svg {
   color: #205375;
 }
-* .join .sign-in .input-group input {
+* .join .card-body .sign-in .input-group input {
   border-radius: 3px 0 0 3px;
 }
-* .join .sign-in .form-check {
+* .join .card-body .sign-in .form-check {
   width: 50%;
   margin: 10px auto;
   display: -webkit-box;
@@ -339,14 +354,14 @@
       -ms-flex-pack: start;
           justify-content: flex-start;
 }
-* .join .sign-in .form-check .form-check-label {
+* .join .card-body .sign-in .form-check .form-check-label {
   margin-right: 30px;
 }
-* .join .sign-in button {
+* .join .card-body .sign-in button {
   position: relative;
   background: #205375;
 }
-* .join .sign-in button span {
+* .join .card-body .sign-in button span {
   position: absolute;
   right: -1px;
   top: -1px;
@@ -364,7 +379,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-* .join .sign-in button span::after {
+* .join .card-body .sign-in button span::after {
   position: absolute;
   content: "";
   border-style: solid;
@@ -373,34 +388,34 @@
   left: -16px;
   top: 25%;
 }
-* .join .sign-in button label {
+* .join .card-body .sign-in button label {
   margin-right: 40px;
 }
-* .join .sign-up {
+* .join .card-body .sign-up {
   width: 70%;
   margin: 0 auto;
   display: none;
 }
-* .join .sign-up h2 span {
+* .join .card-body .sign-up h2 span {
   color: #F66B0E;
 }
-* .join .sign-up .row .col label {
+* .join .card-body .sign-up .row .col label {
   text-align: start;
   display: block;
   margin-top: 20px;
   font-size: 16px;
   letter-spacing: 1px;
 }
-* .join .sign-up .row .col input {
+* .join .card-body .sign-up .row .col input {
   margin-top: 15px;
   border: 1px solid #205375;
 }
-* .join .sign-up button {
+* .join .card-body .sign-up button {
   position: relative;
   background: #F66B0E;
   color: snow;
 }
-* .join .sign-up button span {
+* .join .card-body .sign-up button span {
   position: absolute;
   right: -1px;
   top: -1px;
@@ -418,7 +433,7 @@
       -ms-flex-align: center;
           align-items: center;
 }
-* .join .sign-up button span::after {
+* .join .card-body .sign-up button span::after {
   position: absolute;
   content: "";
   border-style: solid;
@@ -427,24 +442,28 @@
   left: -16px;
   top: 25%;
 }
-* .join .sign-up button span svg {
+* .join .card-body .sign-up button span svg {
   color: #F66B0E;
 }
-* .join .sign-up button label {
+* .join .card-body .sign-up button label {
   margin-right: 40px;
 }
-* .join .reset-pass h2 span {
+* .join .card-body .reset-pass {
+  display: none;
+  width: 100%;
+}
+* .join .card-body .reset-pass h2 span {
   color: #F66B0E;
 }
-* .join .reset-pass .input-group {
+* .join .card-body .reset-pass .input-group {
   width: 70%;
   margin: 0 auto;
 }
-* .join .reset-pass .input-group input {
+* .join .card-body .reset-pass .input-group input {
   border: 2px solid #F66B0E;
   border-radius: 5rem !important;
 }
-* .join .reset-pass .input-group button {
+* .join .card-body .reset-pass .input-group button {
   border-radius: 5rem !important;
   border: none;
   background-color: #F66B0E;

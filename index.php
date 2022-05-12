@@ -129,13 +129,13 @@
       <div class="card-header">
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="#">تسجيـل الدخــول</a>
+            <span class="nav-link active" data-class="sign-in" aria-current="true">تسجيـل الدخــول</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">إنشـاء حسـاب</a>
+            <span class="nav-link" data-class="sign-up">إنشـاء حسـاب</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">إعادة تعيين الرمـز</a>
+            <span class="nav-link" data-class="reset-pass">إعادة تعيين الرمـز</span>
           </li>
         </ul>
       </div>
