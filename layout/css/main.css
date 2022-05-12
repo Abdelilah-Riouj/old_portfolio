@@ -379,6 +379,7 @@
 * .join .sign-up {
   width: 70%;
   margin: 0 auto;
+  display: none;
 }
 * .join .sign-up h2 span {
   color: #F66B0E;
@@ -431,4 +432,22 @@
 }
 * .join .sign-up button label {
   margin-right: 40px;
+}
+* .join .reset-pass h2 span {
+  color: #F66B0E;
+}
+* .join .reset-pass .input-group {
+  width: 70%;
+  margin: 0 auto;
+}
+* .join .reset-pass .input-group input {
+  border: 2px solid #F66B0E;
+  border-radius: 5rem !important;
+}
+* .join .reset-pass .input-group button {
+  border-radius: 5rem !important;
+  border: none;
+  background-color: #F66B0E;
+  color: snow;
+  margin-right: 10px;
 }

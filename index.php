@@ -189,6 +189,15 @@
             </label>
           </button>
         </div>
+        <div class="reset-pass">
+          <h2>إستعـادة <span>الحسـاب</span></h2>
+          <div class="input-group mt-3">
+            <input type="search" class="form-control" placeholder="اسـم المستخـدم او البريـد الالكترونـي">
+            <button class="input-group-text">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
