@@ -1,0 +1,78 @@
+$color-dark: #000000FF
+$color-light: snow
+$color-main: #205375
+$color-global: #112B3C
+$color-text: #F66B0E
+$color-back: #f4f4f4
+
+// font-family: 'Reem Kufi', sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap')
+
+// font-family: 'Amiri', serif;
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Reem+Kufi&display=swap')
+
+:focus
+  outline: none
+*
+  margin: 0
+  padding: 0
+  list-style: none
+  text-decoration: none
+  font-family: 'Amiri', serif
+  body
+    background-color: $color-back
+    width: 100%
+    height: 100vh
+    nav
+      background-color: $color-global
+      padding: 10px 0
+      display: flex
+      justify-content: space-between
+      align-items: baseline
+      width: 100%
+      div.logo
+        color: $color-light
+        font-size: 30px
+        span
+          color: $color-text
+      div.list
+        display: flex
+        justify-content: space-between
+        align-items: baseline
+        ul
+          margin-bottom: 0
+          li
+            display: inline-block
+            margin-left: 15px
+            padding: 8px
+            &:last-of-type
+              margin-left: 0
+              padding-left: 0
+            a
+              text-decoration: none
+              color: $color-light
+        select
+          background: transparent
+          color: $color-light
+          border: none
+          cursor: pointer
+          option
+            color: $color-text
+            background-color: $color-main
+      div.other
+        display: flex
+        justify-content: center
+        align-items: center
+        button
+          background: transparent
+          color: white
+          border: 2px solid $color-text
+          padding: 7px 20px
+          border-radius: 5rem
+          cursor: pointer
+        div.lang
+          svg
+            color: #f66e39
+            font-size: 20px
+            margin: 0 15px
+            cursor: pointer
