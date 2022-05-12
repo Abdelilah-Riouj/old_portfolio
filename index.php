@@ -60,7 +60,72 @@
     </div>
   </div>
   <div class="users-opinions">
-
+    <h1>أقـوال المستخدمين بعـد إستـلام تصاميمهـم</h1>
+    <div class="cards">
+        <div class="card" style="width: 18rem;">
+          <img src="https://your-comics.com/media/image/img_news_10_3_lang62.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">عنـوان <span>التصميـم</span></h5>
+            <p class="card-text">بعض الأمثلة السريعة للنصوص للبناء على عنوان البطاقة وتشكيل الجزء الأكبر من محتوى البطاقة</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-around">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">إسـم المستخـدم |</a>
+            <a href="#" class="card-link">تاريـخ الراي</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://your-comics.com/media/image/img_news_10_3_lang62.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">عنـوان <span>التصميـم</span></h5>
+            <p class="card-text">بعض الأمثلة السريعة للنصوص للبناء على عنوان البطاقة وتشكيل الجزء الأكبر من محتوى البطاقة</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-around">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">إسـم المستخـدم |</a>
+            <a href="#" class="card-link">تاريـخ الراي</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://your-comics.com/media/image/img_news_10_3_lang62.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">عنـوان <span>التصميـم</span></h5>
+            <p class="card-text">بعض الأمثلة السريعة للنصوص للبناء على عنوان البطاقة وتشكيل الجزء الأكبر من محتوى البطاقة</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-around">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">إسـم المستخـدم |</a>
+            <a href="#" class="card-link">تاريـخ الراي</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="join">
+    
   </div>
 <?php
   include $temp . "footer.php";
