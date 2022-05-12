@@ -337,5 +337,70 @@
   color: #666666;
 }
 * .join {
-  height: 50px;
+  margin-top: 50px;
+  width: 70%;
+  margin-right: 15%;
+}
+* .join .login h2 span {
+  color: #F66B0E;
+}
+* .join .login .input-group {
+  width: 50%;
+  margin: 0 auto;
+}
+* .join .login .input-group label {
+  border-radius: 0 3px 3px 0;
+}
+* .join .login .input-group label svg {
+  color: #205375;
+}
+* .join .login .input-group input {
+  border-radius: 3px 0 0 3px;
+}
+* .join .login .form-check {
+  width: 50%;
+  margin: 10px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+* .join .login .form-check .form-check-label {
+  margin-right: 30px;
+}
+* .join .login button {
+  position: relative;
+  background: #205375;
+}
+* .join .login button span {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 40px;
+  height: 103%;
+  background: #112B3C;
+  color: snow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+* .join .login button span::after {
+  position: absolute;
+  content: "";
+  border-style: solid;
+  border-width: 8px;
+  border-color: transparent #122b3c transparent transparent;
+  left: -16px;
+  top: 25%;
+}
+* .join .login button label {
+  margin-right: 40px;
 }

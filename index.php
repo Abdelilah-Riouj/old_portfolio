@@ -125,7 +125,41 @@
       </div>
   </div>
   <div class="join">
-    
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="#">تسجيـل الدخــول</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">إنشـاء حسـاب</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">إعادة تعيين الرمـز</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <div class="login">
+          <h2>تسجيـل <span>الدخــول</span> </h2>
+          <div class="input-group mt-3">
+            <label for="" class="input-group-text"><i class="fa fa-envelope"></i></label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="input-group mt-3">
+            <label for="" class="input-group-text"><i class="fa fa-eye"></i></label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                            تدكـر المعلومـات              
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary mt-2"><span><i class="fa fa-arrow-right-to-bracket"></i></span><label>تسجيـل الدخــول</label></button>
+        </div>
+      </div>
+    </div>
   </div>
 <?php
   include $temp . "footer.php";
