@@ -12,5 +12,8 @@
 <body>
     <?php 
         include $temp . 'navbar.php'; 
-        include $temp . 'slider.php'; 
+        if(!isset($NoSlider))  {
+            include $temp . 'slider.php';
+        }
+         
     ?>
