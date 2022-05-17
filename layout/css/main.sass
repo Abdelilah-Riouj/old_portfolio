@@ -319,7 +319,23 @@ $color-back: #f4f4f4
             background-color: $color-text
             color: $color-light
             margin-right: 10px
-
+  .container-fluid
+    .row
+      align-items: flex-start
+      .sliderProfile
+        box-shadow: 0 0 3px #666
+        padding: 0
+        ul
+          margin: 0
+          padding: 0
+          li
+            padding: 10px
+            border-bottom: 1px solid silver
+            transition: all 0.3s linear
+            cursor: pointer
+          .active
+            background-color: $color-main
+            color: $color-light
   footer
     .cate
       display: flex
